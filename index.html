@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ======== Favicon ======= -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <!-- ======== Boxicons ======= -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ======== Slider Js ======= -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.css"
+    />
+
+    <!-- ======== StyleSheet ======= -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Travel Website</title>
+  </head>
+  <body>
+   
+    <!-- header -->
+    <header class="header" id="header">
+      <!-- Navigation -->
+      <div class="navigation">
+        <nav class="nav d-flex">
+          <div class="logo">
+            <a href="/">
+              <img src="./images/logo.png" />
+            </a>
+          </div>
+          <ul class="nav-list d-flex">
+            <span class="close-btn">&times;</span>
+          
+            <li class="nav-item">
+              <a href="#header" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#service" class="nav-link">Service</a>
+            </li>
+            <li class="nav-item">
+              <a href="#trips" class="nav-link">Trips</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+
+            <a href="#" class="btn sign-up" id="openModal">Sign Up</a>
+
+          </ul>
+
+         
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Hero -->
+      <div class="swiper-container slider-1">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./images/pic-1.jpg" alt="" />
+          </div>
+
+          <div class="swiper-slide">
+            <img src="./images/pic-5.jpg" alt="hero image" />
+          </div>
+          <div class="swiper-slide">
+            <video muted loop autoplay>
+              <source src="./images/video-2.mp4" type="video/mp4" />
+              <source src="./images/video-2.webm" type="video/webm" />
+            </video>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/pic-6.jpg" alt="hero image" />
+          </div>
+
+          <div class="swiper-slide">
+            <video muted loop autoplay>
+              <source src="./images/video-3.mp4" type="video/mp4" />
+              <source src="./images/video-3.webm" type="video/webm" />
+            </video>
+          </div>
+          <div class="swiper-slide">
+            <img src="./images/hero-3.jpg" alt="" />
+          </div>
+
+          <div class="swiper-slide">
+            <video muted loop autoplay>
+              <source src="./images/video-1.mp4" type="video/mp4" />
+              <source src="./images/video-1.webm" type="video/webm" />
+            </video>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <h1>
+          Get Ready for <br />
+          Lifetime Journey
+        </h1>
+        <a href="#" class="btn">Get Started</a>
+      </div>
+
+      <div class="arrows d-flex">
+        <div class="swiper-prev d-flex">
+          <i class="bx bx-chevron-left swiper-icon"></i>
+        </div>
+        <div class="swiper-next d-flex">
+          <i class="bx bx-chevron-right swiper-icon"></i>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- About Section -->
+      <section class="section about" id="about">
+        <div class="row container">
+          <div class="col">
+            <div class="title">
+              <h1>About Us</h1>
+            </div>
+            <p>
+              At WanderQuest, we believe that every journey should be memorable, enriching, and seamless. Our mission is to help you discover the world’s most breathtaking destinations with ease and excitement. From curated trip packages to personalized travel experiences, we offer something for every kind of traveler. Whether you're chasing sunsets on tropical beaches, exploring hidden mountain trails, or immersing yourself in new cultures, we’re here to guide you every step of the way. Let us be your companion in crafting unforgettable adventures.
+            </p>
+            <a href="#" class="btn">Know more</a>
+          </div>
+          <div class="col">
+            <div class="swiper-container slider-2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./images/pic-5.jpg" alt="hero image" />
+                </div>
+                <div class="swiper-slide">
+                  <video muted loop autoplay>
+                    <source src="./images/video-3.mp4" type="video/mp4" />
+                    <source src="./images/video-3.webm" type="video/webm" />
+                  </video>
+                </div>
+                <div class="swiper-slide">
+                  <img src="./images/hero-3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="swiper-button-next">
+                <i class="bx bx-chevron-right swiper-icon"></i>
+              </div>
+              <div class="swiper-button-prev">
+                <i class="bx bx-chevron-left swiper-icon"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  Service Section -->
+      <section class="section service" id="service">
+        <div class="row container">
+          <img src="./images/pic-1.jpg" alt="" />
+          <div class="col">
+            <div class="title">
+              <h1>How to Spend a Weekend?</h1>
+            </div>
+            <p>
+               A weekend getaway is the perfect way to refresh your mind and break the routine. Whether you're an adventure seeker or someone who enjoys peaceful nature, there’s something for everyone. Start your day with a sunrise hike or a bike ride along scenic routes. Explore local culture through historical sites, food markets, or cozy cafes. In the evening, unwind by the beach, enjoy a local music event, or indulge in a spa retreat. A well-planned weekend can bring a world of new experiences, all within just a few days.
+            </p>
+            <div class="d-flex">
+              <h2>15 Days Tour</h2>
+              <div class="rating">
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+                <span><i class="bx bxs-star"></i></span>
+              </div>
+            </div>
+            <div class="d-flex">
+              <h3 class="price">$7999.99</h3>
+              <a href="" class="btn">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- discount Section -->
+      <section class="section discount">
+        <div class="overlay">
+          <video class="video">
+            <source src="./images/hero-2.m4v" type="video/mp4" />
+            <source src="./images/hero-2.webm" type="video/webm" />
+          </video>
+        </div>
+        <div class="content">
+          <h1>
+            Get 15% Off On Tour <br />
+            Next Travel
+          </h1>
+          <a href="#" class="btn">Explore the Tour</a>
+          <span class="video-control d-flex"><i class="bx bx-play"></i></span>
+        </div>
+      </section>
+
+      <!-- Trip Section -->
+      <section class="section trip" id="trips">
+        <div class="title">
+          <h1>
+            Plan Your <br />
+            Trip With Us
+          </h1>
+          <p>
+           Planning a trip has never been easier! With our expert travel guides, personalized itineraries, and seamless booking experience, you can turn your dream vacation into reality. Whether you’re looking for a relaxing beach holiday, a thrilling adventure in the mountains, or a cultural city tour, we’ve got you covered. Our team helps you select the best destinations, accommodations, and activities based on your preferences and budget. Let us handle the details while you focus on making unforgettable memories. Start your journey with us today!
+          </p>
+        </div>
+
+        <div class="row container">
+          <div class="swiper-container slider-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./images/vert-1.jpg" alt="hero image" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-2.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-3.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-4.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-5.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-6.jpg" alt="" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./images/vert-7.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="custom-next d-flex">
+            <i class="bx bx-chevron-right swiper-icon"></i>
+          </div>
+          <div class="custom-prev d-flex">
+            <i class="bx bx-chevron-left swiper-icon"></i>
+          </div>
+          <div class="custom-pagination d-flex"></div>
+        </div>
+        <div class="explore">
+          <a href="#" class="btn">Explore All</a>
+        </div>
+      </section>
+
+      <!-- More Section -->
+      <section class="section more">
+        <div class="row container">
+          <div class="col">
+            <div class="title">
+              <h1>
+                More Places for <br />
+                Your Next Travel
+              </h1>
+              <p>
+                The world is full of hidden gems waiting to be explored! Discover more stunning destinations that offer unique cultures, breathtaking views, and unforgettable experiences. From the tranquil beaches of Bali to the snowy peaks of the Swiss Alps, every place has its own story to tell. Whether you're planning a romantic escape, a family vacation, or a solo adventure, we bring you a handpicked selection of must-visit locations across the globe. Expand your travel horizons and add more incredible memories to your journey.
+              </p>
+            </div>
+            <div class="tours">
+              <div class="box">
+                <img src="./images/pic-2.jpg" alt="" />
+                <h3>Visit to Bali</h3>
+                <h4>$6000</h4>
+              </div>
+              <div class="box">
+                <img src="./images/pic-3.jpg" alt="" />
+                <h3>Visit to Russia</h3>
+                <h4>$8000</h4>
+              </div>
+            </div>
+            <a href="#" class="btn">Explore more tours now</a>
+          </div>
+          <div class="col">
+            <img src="./images/pic-4.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- NewsLetter Section -->
+      <section class="section newsletter">
+        <div class="row container">
+          <div class="col">
+            <h2>Subscribe to our Newsletter</h2>
+            <p>
+              Stay updated with the latest travel deals, destination guides, and expert tips by subscribing to our newsletter. Be the first to know about exclusive discounts, seasonal offers, and handpicked travel inspiration tailored just for you. Whether you're a frequent explorer or planning your first trip, our updates will keep you informed and inspired. Join our travel community today and let the journey begin!
+            </p>
+          </div>
+          <form class="form">
+            <div>
+              <input type="email" placeholder="Email" />
+              <button>Submit</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section contact" id="contact">
+        <div class="title">
+          <h1>Contact Us</h1>
+          <p>
+            Have a question or need help planning your trip? Get in touch with us! We’re here to assist you with travel details, bookings, and more. Reach out anytime—we’d love to hear from you.
+
+
+          </p>
+        </div>
+
+        <div class="location container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30337.435189242005!2d75.01476225331788!3d18.109504855964644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc4792e22a61e83%3A0x305d2a423eef7769!2sIndapur%2C%20Maharashtra%20413106!5e0!3m2!1sen!2sin!4v1750330632167!5m2!1sen!2sin"
+            height="550"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row container">
+        <div class="col">
+          <h3>Company</h3>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+          <h3>Learning Center</h3>
+
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+          <h3>Partner With Us</h3>
+
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+          <a href="#">Executive Team</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+          <img src="./images/pic-1.jpg" alt="" />
+          <img src="./images/pic-2.jpg" alt="" />
+          <img src="./images/pic-3.jpg" alt="" />
+          <img src="./images/pic-4.jpg" alt="" />
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Sign Up Modal -->
+<div class="modal" id="signupModal">
+  <div class="modal-content">
+    <span class="close-btn" id="closeModal">&times;</span>
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+      <div class="form-group">
+        <input type="text" id="fullname" placeholder="Full Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Email" required />
+      </div>
+      <div class="form-group">
+        <input type="password" id="password" placeholder="Password" required />
+      </div>
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</div>
+
+
+    <!-- ======== SwiperJS ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.7.5/swiper-bundle.min.js"></script>
+    <!-- ======== SCROLL REVEAL ======= -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+    <!-- ======== SliderJS ======= -->
+    <script src="slider.js"></script>
+    <!-- ======== IndexJS ======= -->
+    <script src="index.js"></script>
+  </body>
+</html>
